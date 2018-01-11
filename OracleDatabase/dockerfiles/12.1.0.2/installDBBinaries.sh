@@ -57,7 +57,7 @@ $INSTALL_DIR/database/runInstaller -silent -force -waitforcompletion -responsefi
 cd $HOME
 
 # Remove not needed components
-rm -rf $ORACLE_HOME/apex && \
+# rm -rf $ORACLE_HOME/apex && \
 rm -rf $ORACLE_HOME/jdbc && \
 # ZDLRA installer files
 rm -rf $ORACLE_HOME/lib/ra*.zip && \
